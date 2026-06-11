@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project SHAKTI - MakerGhat & Godrej Foundation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="meta-tag">MakerGhat & Godrej Foundation • May 2026</div>
+            <h1>Project SHAKTI</h1>
+            <p class="subtitle">Scaling Hands-on Aspirations, Knowledge, & Talent in Innovation</p>
+            <p class="hero-tagline">A national fellowship lifting India’s young makers from rural classrooms to the world’s most competitive robotics arenas.</p>
+            <a href="#about" class="cta-button">Explore the Fellowship</a>
+        </div>
+    </header>
+
+    <main class="container" id="about">
+        
+        <section class="card intro-section">
+            <div class="section-title-wrap">
+                <span class="badge">Who We Are</span>
+                <h2>Introduction</h2>
+            </div>
+            <p><strong>MakerGhat</strong>, a Section 8 non-profit organisation, champions grassroots innovation and entrepreneurship throughout India, collaborating with prestigious institutions like <strong>Stanford University</strong>, <strong>Georgia Tech</strong>, and <strong>IIT-Bombay</strong>. We aim to provide young individuals with a sense of agency through hands-on making and tinkering.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-youth" data-target="14">0 Lakh</div>
+                    <div class="stat-label">Youth Impacted</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-teachers" data-target="20000">0+</div>
+                    <div class="stat-label">Teachers Trained</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-schools" data-target="25000">0+</div>
+                    <div class="stat-label">School Partnerships</div>
+                </div>
+            </div>
+
+            <p>By deploying specialised curriculums, teacher training, and evaluation frameworks focused on practical skill development, we aim to foster a culture of experiential learning. Our initiatives are particularly tailored for youth in poverty-stricken communities, who have generationally felt disempowered. Through tangible hands-on learning experiences, we strive to instill a belief in these students that they can enact meaningful change with self-developed solutions.</p>
+            
+            <p>The program exposes students to a variety of materials and processes, emphasising activity-based learning that is self-directed and promotes teamwork. This hands-on approach not only sparks curiosity and interest but also enhances critical thinking, problem-solving, self-efficacy, and communication and collaboration—core components of employability skills. By encouraging students to question, plan, iterate, and reflect, MakerGhat aims to nurture innovative thinking and equip them with the tools to tackle real-world problems creatively.</p>
+        </section>
+
+        <section class="card problem-section">
+            <div class="section-title-wrap">
+                <span class="badge alert">The Challenge</span>
+                <h2>The Problem & The Moment</h2>
+            </div>
+            <div class="problem-content">
+                <p>Robotics contests such as the <strong>World Robot Olympiad</strong>, <strong>FIRST LEGO League</strong>, and <strong>FIRST Global Challenge</strong> decide who gets fast‑tracked into top universities and R&D labs. India, despite its massive talent pool, sends only a handful of teams.</p>
+                <blockquote>
+                    "In 2024, India finished fourth at FIRST Global—encouraging, but still shy of the podium."
+                </blockquote>
+                <p>If Maharashtra’s strong legacy in education and innovation has shaped national progress, robotics can put the state on the global map—we simply need a stronger, highly-supported funnel.</p>
+            </div>
+        </section>
+
+        <section class="card answer-section">
+            <div class="section-title-wrap">
+                <span class="badge success">Our Solution</span>
+                <h2>Our Answer</h2>
+            </div>
+            <p class="lead-text">Project SHAKTI will identify <strong>fifty high‑potential students</strong> (twenty‑five two‑person teams) each year, give them <strong>18 months of deep coaching</strong>, and back them all the way to national and global finals. MakerGhat’s 25,000‑school network supplies the talent; a new fellowship structure supplies the lift.</p>
+
+            <div class="pillars-grid">
+                <div class="pillar-card">
+                    <div class="pillar-icon">📍</div>
+                    <h3>One Physical Hub</h3>
+                    <p>Workshops and bootcamps will run at <strong>IIT Bombay, Mumbai</strong>—a long‑time MakerGhat partner offering labs, dorms, and faculty support. (MUSO Mumbai remains available for future cohorts.)</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-icon">🌐</div>
+                    <h3>Hybrid Delivery</h3>
+                    <p>Weekly skill “sprints” happen seamlessly online, while district scrimmages and state qualifiers rotate through dynamic regional meet‑ups.</p>
+                </div>
+                <div class="pillar-card">
+                    <div class="pillar-icon">⚡</div>
+                    <h3>Guaranteed Women’s Track</h3>
+                    <p>A minimum of half the seats—and at least three of ten global‑finalist slots—are reserved for girls. Separate mentoring circles address retention and confidence gaps.</p>
+                </div>
+            </div>
+
+            <div class="interactive-box">
+                <h3>Visualizing Fellowship Equity</h3>
+                <p>Click the toggles below to see how Project SHAKTI guarantees gender parity in its fellowship structure.</p>
+                <div class="toggle-container">
+                    <button class="toggle-btn active" id="btn-seats">Cohort Seats (50 Total)</button>
+                    <button class="toggle-btn" id="btn-finalists">Global Finalists (10 Total)</button>
+                </div>
+                <div class="visualizer-display" id="visualizer-box">
+                    </div>
+                <div class="legend">
+                    <span class="legend-item"><span class="dot reserved"></span> Reserved for Girls (50%)</span>
+                    <span class="legend-item"><span class="dot open"></span> General Pool Seats</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>© 2026 MakerGhat. All Rights Reserved. Built in partnership with the Godrej Foundation.</p>
+            <p class="footer-sub">Empowering grassroots youth through experiential robotics education.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
